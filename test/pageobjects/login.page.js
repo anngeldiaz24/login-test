@@ -1,8 +1,7 @@
 import { $ } from '@wdio/globals'
-import Page from './page.js';
 
 /**
- * sub page containing specific selectors and methods for a specific page
+ * Login class
  */
 class LoginPage {
     get userNameInput(){
