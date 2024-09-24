@@ -1,6 +1,6 @@
 # Exam 
 
-This project contains automated tests for the SauceDemo application using WebDriverIO.
+This project contains automated tests for the login page of the SauceDemo application using WebDriverIO. The tests validate different scenarios for logging in with valid and invalid credentials.
 
 ## Installation
 
@@ -10,4 +10,5 @@ This project contains automated tests for the SauceDemo application using WebDri
    cd login-test
 
 2. Run command:
+    ```bash
     npm run wdio
