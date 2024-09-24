@@ -8,6 +8,7 @@ This project contains automated tests for the login page of the SauceDemo applic
    ```bash
    git clone <git@github.com:anngeldiaz24/login-test.git>
    cd login-test
+   npm install
 
 2. Run command:
     ```bash
