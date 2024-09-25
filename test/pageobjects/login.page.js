@@ -5,19 +5,19 @@ import { $ } from '@wdio/globals'
  */
 class LoginPage {
     get userNameInput(){
-        return $('input#user-name');
+        return $('//input[@id="user-name"]');
     }
 
     get passwordInput(){
-        return $('input#password');
+        return $('//input[@id="password"]');
     }
 
     get loginButton(){
-        return $('input#login-button');
+        return $('//input[@id="login-button"]');
     }
 
     get errorMessage(){
-        return $('h3[data-test="error"]');
+        return $('//h3[@data-test="error"]');
     }
 
     async login(username, password) {
